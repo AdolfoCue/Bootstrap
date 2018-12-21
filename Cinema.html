@@ -4,18 +4,24 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--META TAGS END-->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/Cinema_style.css">
     <title>Academy Cinemas</title>
   </head>
+
   <body>
-  <!-- Page Content  -->  
+  <!-- PAGE CONTENT  -->  
+
+  <!--NAVIGATION-->
     <div class="container">
       
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <nav class="navbar navbar-expand-lg navbar-light" class="navbar-light" style="background-color: #e3f2fd;">
+          <a class="navbar-brand" href="#">
+            <img src="./bootstrap_img/movie_logo.gif" alt="cinema logo" width="60" height="58" alt="">
+          </a></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,21 +32,21 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Showtimes</a>
+                <a class="dropdown-item" href="#">Deals</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Showtims</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#">Deals</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -49,22 +55,136 @@
           </form>
         </div>
       </nav>
-        
+    </div>
+        <!-- NAVIGATION END  -->
 
-        <!-- Navigation  -->
+<!-- JUMBOTRON -->
+
+  <div class="jumbotron jumbotron-fluid text-center bg-info">
+    <div class="container">
+      <h1 class="display-2">Academy Cinemas</h1>
+      <p class="lead">Sit back, relax and enjoy the show!</p>
+    </div>
+  </div>
+
+<!-- JUMBOTRON END -->
+
+<!-- LAYOUT-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm md-4">
+        <h3>About Academy Cinemas</h3>
+        <img class="img-fluid" src="./bootstrap_img/pdx.jpg" alt="picture of portland mascott">
+        <p>Located in the Pearl</p>
+        <p>This place is the best!</p>
+      </div>
+      <div class="col-sm md-4">
+          <h3>Acomodations</h3>
+          <p>We are wheelchair accessible. With plenty of room in the theater for all sizes and preferences</p>
+          <p>We have vegan and gluten-free meals and scacks available for all.</p>
+          <p>All nationalities and gender identifications are welcomed here as well!</p>
+          <p>With new Christie speakers, extra wide chairs and tables int he theater, you'll be the most comfortable!</p>
+      </div>
+      <div class="col-sm md-4">
+          <h3>Showtimes</h3>
+          <ul class="list-group">
+              <li class="list-group-item">
+              <a class="nav-link" href=#showtimes>Kong: Skull Island</a>
+              </li>
+              <li class="list-group-item">
+              <a class="nav-link" href=#showtimes>Ghost In The Shell</a>
+              </li>
+              <li class="list-group-item">
+              <a class="nav-link" href=#showtimes>Beauty and the Beast</a>
+              </li>
+              <li class="list-group-item">
+              <a class="nav-link" href=#showtimes>Life (2017)</a>
+              </li>
+              <li class="list-group-item">
+              <a class="nav-link" href=#showtimes>Power Rangers</a>
+              </li>
+            </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- LAYOUT END-->    
 
 
 
+<!-- PAGE CONTENT END  -->
 
 
+<!-- SHOWTIMES -->
 
+<div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="./bootstrap_img/kongskullisland.jpg" alt="Card image cap" >
+        <div class="card-body">
+          <h5 class="card-title">Kong: Skull Island</h5>
+          <span class="badge badge-pill badge-info">2pm</span>
+          <span class="badge badge-pill badge-info">4pm</span>
+          <span class="badge badge-pill badge-info">6pm</span>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="./bootstrap_img/ghostintheshell.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Ghost In the Shell</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="./bootstrap_img/beautyandthebeast.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Beauty and the Beast</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+</div>   
+<div class="card-group">
+    <div class="card">
+        <img class="card-img-top" src="./bootstrap_img/life.jpg" alt="Card image cap" >
+        <div class="card-body">
+          <h5 class="card-title">Life</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./bootstrap_img/logan.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Logan</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./bootstrap_img/powerrangers.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Power Rangers</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+</div>
 
-
-
-
-        
-    
-      <!-- Page Content/  -->
+<!-- SHOWTIMES END -->
       <!-- Optional JavaScript -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
